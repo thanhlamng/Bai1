@@ -1,0 +1,526 @@
+
+.container, .container * {
+  box-sizing: border-box; 
+}
+.logo{
+  width: 164px;
+  height: 59px;
+  position: absolute;
+  left: 60px;
+  top: 44px;
+  overflow: hidden;
+}
+.container {
+  background: #ffffff; 
+  width: 1920px; 
+  height: 4471px; 
+  position: relative; 
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.home {
+  color: #525159; 
+  text-align: left; 
+  font: 500 20px/24px 'Manrope', sans-serif; 
+  position: absolute; 
+  left: 901px;
+  top: 61px;
+}
+.about-application {
+  color: #525159;
+  text-align: left;
+  font: 500 20px/24px "Manrope", sans-serif;
+  position: absolute;
+  left: 1043px;
+  top: 61px;
+}
+.support {
+  color: #525159;
+  text-align: left;
+  font: 500 20px/24px "Manrope", sans-serif;
+  position: absolute;
+  left: 1308px;
+  top: 61px;
+}
+.blog {
+  color: #525159;
+  text-align: left;
+  font: 500 20px/24px "Manrope", sans-serif;
+  position: absolute;
+  left: 1472px;
+  top: 61px;
+}
+.rectangle-1 {
+  background: #616ae8;
+  border-radius: 13px;
+  width: 153px;
+  height: 61px;
+  position: absolute;
+  left: 1566px;
+  top: 43px;
+  box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.25);
+}
+.rectangle-2 {
+  background: #22e4a7;
+  border-radius: 13px;
+  width: 126px;
+  height: 61px;
+  position: absolute;
+  left: 1743px;
+  top: 104px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, -1);
+}
+.get-started {
+  color: #ffffff;
+  text-align: left;
+  font: 700 20px/24px "Manrope", sans-serif;
+  position: absolute;
+  left: 1583px;
+  top: 61px;
+}
+.text {
+  color: #ffffff;
+  text-align: left;
+  font: 700 20px/24px "Manrope", sans-serif;
+  position: absolute;
+  left: 1760px;
+  top: 61px;
+}
+.ellipse-1 {
+  background: #fbe9e9;
+  border-radius: 50%;
+  width: 105px;
+  height: 105px;
+  position: absolute;
+  left: 60px;
+  top: 253px;
+}
+.ellipse-2 {
+  background: #e7faf9;
+  border-radius: 50%;
+  width: 105px;
+  height: 105px;
+  position: absolute;
+  left: 491px;
+  top: 253px;
+}
+.ellipse-3 {
+  background: #f5ecfd;
+  border-radius: 50%;
+  width: 105px;
+  height: 105px;
+  position: absolute;
+  left: 930px;
+  top: 253px;
+}
+.ellipse-4 {
+  background: #e7effb;
+  border-radius: 50%;
+  width: 105px;
+  height: 105px;
+  position: absolute;
+  left: 1361px;
+  top: 253px;
+}
+.wp-i-os-android {
+  color: #2d2b36;
+  text-align: left;
+  font: 700 26px/24px "Manrope", sans-serif;
+  position: absolute;
+  left: 113px;
+  top: 294px;
+}
+.details-1{
+  color: #7e7fa0;
+  text-align: left;
+  font: 500 20px/34px "Manrope", sans-serif;
+  position: absolute;
+  left: 120px;
+  top: 358px;
+  width: 399px;
+  height: 141px;
+}
+.single-page-application {
+  color: #2d2b36;
+  text-align: left;
+  font: 700 26px/24px "Manrope", sans-serif;
+  position: absolute;
+  left: 544px;
+  top: 294px;
+}
+.details-2{
+  color: #7e7fa0;
+  text-align: left;
+  font: 500 20px/34px "Manrope", sans-serif;
+  position: absolute;
+  left: 551px;
+  top: 358px;
+  width: 399px;
+  height: 141px;
+}
+.drag-drop-page-builder {
+  color: #2d2b36;
+  text-align: left;
+  font: 700 26px/24px "Manrope", sans-serif;
+  position: absolute;
+  left: 983px;
+  top: 294px;
+}
+.details-3{
+  color: #7e7fa0;
+  text-align: left;
+  font: 500 20px/34px "Manrope", sans-serif;
+  position: absolute;
+  left: 990px;
+  top: 358px;
+  width: 399px;
+  height: 141px;
+}
+.elite-support {
+  color: #2d2b36;
+  text-align: left;
+  font: 700 26px/24px "Manrope", sans-serif;
+  position: absolute;
+  left: 1407px;
+  top: 294px;
+}
+.details-4{
+  color: #7e7fa0;
+  text-align: left;
+  font: 500 20px/34px "Manrope", sans-serif;
+  position: absolute;
+  left: 1407px;
+  top: 359px;
+  width: 399px;
+  height: 141px;
+}
+.trusted-by-over-1000-users {
+  text-align: left;
+  font: 800 38px/24px "Manrope", sans-serif;
+  position: absolute;
+  left: 691px;
+  top: 618px;
+}
+.trusted-by-over-1000-users {
+  text-align: left;
+  font: 800 38px/24px "Manrope", sans-serif;
+  position: absolute;
+  left: 691px;
+  top: 618px;
+}
+.trusted-by-over-1000-users-span {
+  color: #2d2a3e;
+  font: 800 38px/24px "Manrope", sans-serif;
+}
+.backspace1 {
+  color: #000000;
+  font: 800 38px/24px "Manrope", sans-serif;
+}
+.trusted-by-over-1000-users-span3 {
+  color: #5e68f9;
+  font: 800 38px/24px "Manrope", sans-serif;
+}
+.backspace2 {
+  color: #000000;
+  font: 800 38px/24px "Manrope", sans-serif;
+}
+.users {
+  color: #2d2a3e;
+  font: 800 38px/24px "Manrope", sans-serif;
+}
+.trusted-details{
+  color: #7e7fa0;
+  text-align: center;
+  font: 500 20px/29px "Manrope", sans-serif;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 1852px;
+  width: 671px;
+}
+.trusted-details1 {
+  color: #7e7fa0;
+  text-align: center;
+  font: 500 20px/29px "Manrope", sans-serif;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 686px;
+  width: 685px;
+  height: 121px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rectangle-3 {
+  background: #f0f9fe;
+  border-radius: 0px 48px 48px 0px;
+  width: 790px;
+  height: 815px;
+  position: absolute;
+  left: 0px;
+  top: 807px;
+}
+.background-rectangle {
+  background: #f0f9fe;
+  border-radius: 0px 48px 48px 0px;
+  width: 790px;
+  height: 815px;
+  position: absolute;
+  left: 0px;
+  top: 807px;
+}
+.img-rectangle {
+  border-radius: 30px;
+  width: 823px;
+  height: 579px;
+  position: absolute;
+  left: 120px;
+  top: 923px;
+  box-shadow: 0px 4px 34px 0px rgba(0, 0, 0, 0.11);
+}
+.background-ellipse1 {
+  background: #fdf0e7;
+  border-radius: 50%;
+  width: 122px;
+  height: 122px;
+  position: absolute;
+  left: 1013px;
+  top: 997px;
+}
+.details1-rectangle {
+  color: #7e7fa0;
+  text-align: left;
+  font: 500 20px/37px "Manrope", sans-serif;
+  position: absolute;
+  left: 1013px;
+  top: 1149px;
+  width: 750px;
+  height: 149px;
+}
+
+.carbon-quotes {
+  position: absolute;
+  left: 1120px;
+  top: 1099px;
+  transform: translate(-83px, -83px);
+  overflow: visible;
+  
+}
+.ellipse-a {
+  background: #e8e8eb;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 1015px;
+  top: 1401px;
+}
+.ellipse-b {
+  background: #e8e8eb;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 1044px;
+  top: 1401px;
+}
+.ellipse-c {
+  background: #5e68f9;
+  border-radius: 50%;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  left: 1074px;
+  top: 1399px;
+}
+.background-rectangle2 {
+  background: #fcf3ec;
+  border-radius: 48px;
+  width: 1877px;
+  height: 1173px;
+  position: absolute;
+  left: 15px;
+  top: 1649px;
+}
+.header-2{
+  text-align: left;
+  font: 700 36px/24px "Manrope", sans-serif;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 143px;
+}
+.header-2-essential {
+  color: #2d2a3e;
+  font: 700 36px/24px "Manrope", sans-serif;
+}
+.header-2-backspace {
+  color: #000000;
+  font: 700 36px/24px "Manrope", sans-serif;
+}
+.header-2-features {
+  color: #5e68f9;
+  font: 700 36px/24px "Manrope", sans-serif;
+}
+.header-2-for-you {
+  color: #2d2a3e;
+  font: 700 36px/24px "Manrope", sans-serif;
+}
+.trusted-details2{
+  color: #7e7fa0;
+  text-align: center;
+  font: 500 20px/29px "Manrope", sans-serif;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 203px;
+  width: 671px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rectangles-container{
+  position: absolute;
+  top: 329px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.row {
+  display: flex;
+  justify-content: center;
+  margin: 41px 0;
+}
+
+.rectangle {
+  background: #ffffff;
+  border-radius: 16px;
+  width: 534px;
+  height: 349px;
+  margin: 0 22px; /* 44px between rectangles and 22px for each side */
+}
+.icon {
+  border-radius: 50%;
+  width: 93px;
+  height: 93px;
+  margin-top: 41px;
+  margin-left: 40px;
+  margin-bottom: 217px;
+  margin-right: 401px;
+}
+.icon1 {
+  background-color:#FFF1F0;
+  border-radius: 50%;
+  width: 93px;
+  height: 93px;
+  margin-top: 41px;
+  margin-left: 40px;
+  margin-bottom: 217px;
+  margin-right: 401px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon2 {
+  background-color:#F2E9FA;
+  border-radius: 50%;
+  width: 93px;
+  height: 93px;
+  margin-top: 41px;
+  margin-left: 40px;
+  margin-bottom: 217px;
+  margin-right: 401px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon3 {
+  background-color:#E4F7FA;
+  border-radius: 50%;
+  width: 93px;
+  height: 93px;
+  margin-top: 41px;
+  margin-left: 40px;
+  margin-bottom: 217px;
+  margin-right: 401px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon4 {
+  background-color:#E4E6FB;
+  border-radius: 50%;
+  width: 93px;
+  height: 93px;
+  margin-top: 41px;
+  margin-left: 40px;
+  margin-bottom: 217px;
+  margin-right: 401px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon5 {
+  background-color:#FDE9F4;
+  border-radius: 50%;
+  width: 93px;
+  height: 93px;
+  margin-top: 41px;
+  margin-left: 40px;
+  margin-bottom: 217px;
+  margin-right: 401px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon6 {
+  background-color:#E4F9E6;
+  border-radius: 50%;
+  width: 93px;
+  height: 93px;
+  margin-top: 41px;
+  margin-left: 40px;
+  margin-bottom: 217px;
+  margin-right: 401px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rectangle-header{
+  color: #2d2a3e;
+  position: absolute;
+  margin-top: 174px;
+  margin-left: 39px;
+  margin-bottom: 151px;
+  font: 800 23px/24px "Manrope", sans-serif;
+  letter-spacing: 0.92px;
+  text-align: left;
+}
+.rectangle-description{
+  color: #7e7fa0;
+  font: 500 20px/33px "Manrope", sans-serif;
+  text-align: left;
+  position: absolute;
+  width: 442px;
+  height: 99px;
+  margin-top:214px;
+  margin-left: 39px;
+  letter-spacing: 0.50px;
+}
+.PopularPosts{
+  color:black;
+  font: 700 36px/24px "Manual",sans-serif;
+  position: absolute;
+  margin-top:137px;
+}
+.PopularPosts-description{
+  color: #7e7fa0;
+  text-align: center;
+  font: 500 20px/29px "Manrope", sans-serif;
+  position: absolute;
+  left: calc(50% - 342px);
+  top: 686px;
+  width: 685px;
+  height: 121px;
+  letter-spacing: 1.50px;
+}
