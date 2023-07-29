@@ -1,0 +1,18 @@
+//Abstracts
+@import "./abstracts/variable.scss";
+//Base
+@import "./base/normalize.scss";
+@import "./base/reset.scss";
+//layout
+@import "./layout//grid.scss";
+//Utils
+@import "./utils/utils.scss";
+//Components
+@import "./components/section.scss";
+@import "./components/text-box.scss";
+@import "./components/header.scss";
+@import "./components/title-container.scss";
+@import "./components/carousel.scss";
+@import "./components/design-box.scss";
+@import "./components/post.scss";
+@import "./components/button.scss";

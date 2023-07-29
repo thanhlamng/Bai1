@@ -1,0 +1,39 @@
+.page-section {
+  position: relative;
+  z-index: 9;
+  padding: 80px 0;
+}
+
+.page-section__bg {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.page-section__bg--left {
+  top: 240px;
+  left: 0;
+  width: 40%;
+  height: 42vw;
+  background: $colorBackground1;
+  border-radius: 0px 48px 48px 0px;
+  @media (max-width: 1200px) {
+    width: 50%;
+    height: 50vw;
+  }
+}
+
+.page-section__bg--right {
+  right: 0;
+}
+
+.page-section__bg--full {
+  left: 10px;
+  right: 10px;
+  width: calc(100% - 20px);
+  height: 100%;
+  background-color: $colorBackground2;
+  border-radius: 48px;
+}

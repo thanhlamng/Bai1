@@ -1,0 +1,70 @@
+.carousel__image {
+  position: relative;
+  padding-top: 5vw;
+  width: 96%;
+  height: 36vw;
+  img {
+    border-radius: 16px;
+  }
+  @media (max-width: 1199px) {
+    width: 60%;
+    margin: auto;
+  }
+}
+.quote {
+  width: 96%;
+  @media (max-width: 1199px) {
+    width: 60%;
+    margin: 150px auto;
+  }
+}
+
+.quote__logo {
+  width: 122px;
+  height: 122px;
+  background-color: $colorCircle5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+.quote_logo svg {
+    width: 83px;
+    height: 83px;
+    color: #606cfc;
+  }
+}
+.quote__text {
+  padding-top: 40px;
+  color: #7e7fa0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 185%;
+  letter-spacing: 1.5px;
+}
+.quote__artist {
+  position: relative;
+  padding: 25px 0 0 34px;
+  color: #2d2a3e;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 133.333%; /* 133.333% */
+  letter-spacing: 0.72px;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 37px;
+    left: 0;
+    width: 26px;
+    height: 1px;
+    background-color: #7e7fa0;
+  }
+}
+.quote__dots {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  @media (max-width: 1199px) {
+    justify-content: center;
+  }
+}

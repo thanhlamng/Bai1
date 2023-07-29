@@ -1,0 +1,110 @@
+.header {
+  position: relative;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  width: 164px;
+}
+.header__right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 40px;
+  @media (max-width: 1199px) {
+    gap: 20px;
+  }
+  @media (max-width: 991px) {
+    display: none;
+  }
+}
+.header__menu {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  @media (max-width: 1199px) {
+    gap: 20px;
+  }
+  li {
+    a {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 120%;
+      letter-spacing: 0.8px;
+      &:hover {
+        color: $colorPrimary;
+      }
+    }
+  }
+}
+.header__button {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header__bar {
+  display: none;
+  @media (max-width: 991px) {
+    display: inline-block;
+    cursor: pointer;
+    z-index: 11;
+  }
+}
+.bar {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.change .bar--1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+.change .bar--2 {
+  opacity: 0;
+}
+.change .bar--3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+.header__overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+  ul {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    li {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 36px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+      &:hover {
+        color: #f1f1f1;
+      }
+    }
+  }
+}
+.header__overlay.change {
+  height: 100%;
+}
+.overlay__button {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
