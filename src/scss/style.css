@@ -508,6 +508,42 @@ img {
 .text-box--4::before {
   background-color: #e7effb;
 }
+.text-box__title {
+  padding-bottom: 35px;
+  color: #2d2b36;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 92.308%;
+  letter-spacing: 1.3px;
+}
+@media (max-width: 1700px) {
+  .text-box__title {
+    font-size: 19px;
+  }
+}
+@media (max-width: 1326px) {
+  .text-box__title {
+    font-size: 16px;
+  }
+}
+.text-box__description {
+  padding-left: 5px;
+  color: #7e7fa0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 170%; /* 170% */
+  letter-spacing: 0.74px;
+}
+@media (max-width: 1700px) {
+  .text-box__description {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1326px) {
+  .text-box__description {
+    font-size: 14px;
+  }
+}
 
 .title-container {
   padding-bottom: 35px;
@@ -515,7 +551,6 @@ img {
   font-size: 25px;
   font-weight: 700;
   line-height: 92.308%;
-  letter-spacing: 1.3px;
 }
 @media (max-width: 1700px) {
   .title-container {
@@ -527,26 +562,6 @@ img {
     font-size: 16px;
   }
 }
-
-.title__description {
-  padding-left: 5px;
-  color: #7e7fa0;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 170%; /* 170% */
-  letter-spacing: 0.74px;
-}
-@media (max-width: 1700px) {
-  .title__description  {
-    font-size: 16px;
-  }
-}
-@media (max-width: 1326px) {
-  .title__description  {
-    font-size: 14px;
-  }
-}
-
 .header {
   position: relative;
   height: 120px;
@@ -683,17 +698,31 @@ img {
 
 .title {
   padding-bottom: 40px;
-  color: #2d2a3e;
+  color: black;
   font-size: 38px;
-  font-weight: 800;
-  line-height: 63.158%;
-  letter-spacing: 1.52px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 1.0px;
 }
 .title span {
   color: #5e68f9;
 }
 
 .title__description {
+  display: inline-block;
+  width: 685px;
+  color: #7e7fa0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 145%;
+  letter-spacing: 1.5px;
+}
+@media (max-width: 767px) {
+  .box-title__bottom {
+    width: fit-content;
+  }
+}
+.title__description--1 {
   display: inline-block;
   width: 685px;
   color: #7e7fa0;
@@ -875,8 +904,8 @@ img {
 .post__title {
   color: #2d2a3e;
   font-size: 23px;
-  font-weight: 800;
-  line-height: 104.348%;
+  font-weight: 700;
+  line-height: 24px;
   letter-spacing: 0.92px;
   padding-top: 40px;
 }
@@ -964,7 +993,7 @@ img {
   color: #000;
   font-size: 21px;
   font-weight: 600;
-  line-height: 114.286%;
+  line-height: 24px;
   letter-spacing: 0.21px;
 }
 @media (max-width: 1500px) {
