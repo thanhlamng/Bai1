@@ -701,7 +701,7 @@ img {
   color: black;
   font-size: 38px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 63.15789473684211%;
   letter-spacing: 1.0px;
 }
 .title span {
@@ -905,7 +905,7 @@ img {
   color: #2d2a3e;
   font-size: 23px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 104.3478260869565%;
   letter-spacing: 0.92px;
   padding-top: 40px;
 }
@@ -941,9 +941,6 @@ img {
   filter: blur(0);
 }
 
-.design-box__image img:not(:hover) {
-  filter: blur(2px);
-}
 .design-box:hover .design-box__content .design-box__title {
   color: #5d69fb;
 }
@@ -993,7 +990,7 @@ img {
   color: #000;
   font-size: 21px;
   font-weight: 600;
-  line-height: 24px;
+  line-height: 114.2857142857143%;
   letter-spacing: 0.21px;
 }
 @media (max-width: 1500px) {
