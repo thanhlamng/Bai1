@@ -696,7 +696,7 @@ img {
   text-align: center;
 }
 
-.title {
+.title__text {
   padding-bottom: 40px;
   color: black;
   font-size: 38px;
@@ -704,7 +704,7 @@ img {
   line-height: 63.15789473684211%;
   letter-spacing: 1.0px;
 }
-.title span {
+.title__text span {
   color: #5e68f9;
 }
 
